@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="Login_style.css" />
-  </head>
-  <body>
-	  <!-- <header>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="Login_style.css" />
+</head>
+
+<body>
+	<!-- <header>
 		<h1>Login</h1>
 	  </header> -->
-		<section class="Form my-5">
-			<div class="container">
-				<div class="row g-0">
-					<div class="pic col-lg-5">
-						<img src="./img/hospital.jpg" class="img-fluid" alt="Welcome to Treat Lines">
-					</div>
-					<div class="col-lg-7 px-5 pt-3">
-						<h2 class="py-3">Login</h2>
-						<h5>Sign into your account</h5>
-						<form action="tables.html" id="login">
-							<div class="form-row">
-								<div class="form-message form-message-error col-lg-10">	
-								</div>
+	<section class="Form my-5">
+		<div class="container">
+			<div class="row g-0 logForm">
+				<div class="pic col-lg-5">
+					<img src="./img/hospital.jpg" class="img-fluid" alt="Welcome to Treat Lines">
+				</div>
+				<div class="col-lg-7 px-5 pt-3">
+					<h2 class="py-3">Login</h2>
+					<h5>Sign into your account</h5>
+					<form action="tables.html" id="login">
+						<div class="form-row">
+							<div class="form-message form-message-error col-lg-10">
 							</div>
-							<div class="form-row">
-								<div class="col-lg-10">
-									<input type="email" id="loginEmail" placeholder="Email" class="form-control my-2">
-									<div class="form-control-error-message"></div>								
-								</div>
+						</div>
+						<div class="form-row">
+							<div class="col-lg-10">
+								<input type="email" id="loginEmail" placeholder="Email" class="form-control my-2">
+								<div class="form-control-error-message"></div>
 							</div>
-							<div class="form-row">
-								<div class="col-lg-10">
-									<input type="password" id="loginPass" placeholder="Password" class="form-control my-2">
-									<div class="form-control-error-message"></div>							
-								</div>
+						</div>
+						<div class="form-row">
+							<div class="col-lg-10">
+								<input type="password" id="loginPass" placeholder="Password" class="form-control my-2">
+								<div class="form-control-error-message"></div>
 							</div>
-							<div class="form-row">
-								<div class="col-lg-10">
-									<button type="submit" class="btn-login mb-3">Login</button>								
-								</div>
+						</div>
+						<div class="form-row">
+							<div class="col-lg-10">
+								<button type="submit" class="btn-login mb-3">Login</button>
 							</div>
-							<p>Don't have an account? <a href="#">Register here</a> and join us!</p>
-						</form>
-					</div>
+						</div>
+						<p>Don't have an account? <a href="#">Register here</a> and join us!</p>
+					</form>
 				</div>
 			</div>
-		</section>
-		<!-- <footer>
-			
-		</footer> -->
+		</div>
+	</section>
+	<footer class="text-center foot pt-4 mt-5 border-top">
+		<div class="row g-0">
+			<div class="col-4 ms-4">
+				<h5>CONTACT US</h5>
+				<ul class="list-unstyled text-small">
+					<li>Tech support</li>
+					<li>Email: <a href="#" class="link-secondary">admin@gmail.com</a></li>
+					<li>Phone: <a href="#" class="link-secondary">0172 381 7320</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<h5>INFORMATION</h5>
+				<ul class="list-unstyled text-small">
+					<li><a href="#" class="link-secondary">Privacy policy</a></li>
+					<li><a href="#" class="link-secondary">Terms of service</a></li>
+				</ul>
+			</div>
+			<div class="col-4 me-4">
+				<h5>Social</h5>
+				<ul class="list-unstyled text-small">
+					<li><a href="#" class="link-secondary"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="link-secondary"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="link-secondary"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 	<script src="./login.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

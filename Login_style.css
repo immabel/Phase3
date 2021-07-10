@@ -10,7 +10,7 @@ body {
   width: 60%;
   margin-left: 18%;
 }
-.row {
+.logForm {
   background: white;
   border-radius: 25px;
   box-shadow: 10px 10px 20px rgb(151, 163, 173);
@@ -61,4 +61,7 @@ h4 {
   background-color: whitesmoke;
   border: 1.5px solid;
   color: rgb(49, 94, 190);
+}
+.foot {
+  background-color: rgb(177, 220, 236);
 }
