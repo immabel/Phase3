@@ -9,6 +9,10 @@ body {
 .navbar {
   background-color: rgb(29, 77, 179);
 }
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
 .pictures-area {
   width: 80%;
   margin-left: 10%;
