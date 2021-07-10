@@ -6,6 +6,9 @@
 body {
   background: rgb(241, 246, 248);
 }
+.navbar {
+  background-color: rgb(29, 77, 179);
+}
 .Form {
   width: 60%;
   margin-left: 18%;

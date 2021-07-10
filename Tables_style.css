@@ -6,6 +6,9 @@
 body {
   background: rgb(241, 246, 248);
 }
+.navbar {
+  background-color: rgb(29, 77, 179);
+}
 .pictures-area {
   width: 80%;
   margin-left: 10%;
@@ -63,4 +66,7 @@ img {
 .disabled {
   border-color: gray;
   pointer-events: none;
+}
+.foot {
+  background-color: rgb(177, 220, 236);
 }
